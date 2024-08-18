@@ -68,9 +68,6 @@ namespace XuongMay.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<bool>("status")
-                        .HasColumnType("bit");
-
                     b.HasKey("Id");
 
                     b.ToTable("Categories");
@@ -178,11 +175,11 @@ namespace XuongMay.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
+
                     b.Property<double>("UnitPrice")
                         .HasColumnType("float");
-
-                    b.Property<bool>("status")
-                        .HasColumnType("bit");
 
                     b.HasKey("ProductID");
 

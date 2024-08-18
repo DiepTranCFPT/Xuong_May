@@ -12,8 +12,8 @@ using XuongMay.Models.Entity;
 namespace XuongMay.Migrations
 {
     [DbContext(typeof(XuongMayContext))]
-    [Migration("20240817153314_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20240818075758_initCreate")]
+    partial class initCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -70,9 +70,6 @@ namespace XuongMay.Migrations
                     b.Property<string>("Name")
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
-
-                    b.Property<bool>("status")
-                        .HasColumnType("bit");
 
                     b.HasKey("Id");
 
@@ -181,11 +178,11 @@ namespace XuongMay.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
+
                     b.Property<double>("UnitPrice")
                         .HasColumnType("float");
-
-                    b.Property<bool>("status")
-                        .HasColumnType("bit");
 
                     b.HasKey("ProductID");
 
