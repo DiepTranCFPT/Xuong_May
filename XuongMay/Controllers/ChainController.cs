@@ -80,23 +80,28 @@ namespace XuongMay.Controllers
             return NoContent();
         }
 
-        // Delete a Chain
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteChain(int id)
-        {
-            var chain = await dbContext.Chains.FindAsync(id);
+        // DELETE: api/ChainAPI/5
+[HttpDelete("{id}")]
+public async Task<IActionResult> DeleteChain(int id)
+{
+    var chain = await dbContext.Chains.FindAsync(id);
 
-            if (chain == null)
-            {
-                return NotFound();
-            }
+    if (chain == null)
+    {
+        return NotFound();
+    }
 
-            dbContext.Chains.Remove(chain);
-            await dbContext.SaveChangesAsync();
-            return NoContent();
-        }
+    chain.IsDeleted = true;
 
-        // Get all Chains (optional: include related entities)
+    dbContext.Entry(chain).State = EntityState.Modified;
+
+    // Save changes to the database
+    await dbContext.SaveChangesAsync();
+
+    return NoContent();
+}
+
+
         [HttpGet]
         public async Task<IActionResult> GetAllChains()
         {
