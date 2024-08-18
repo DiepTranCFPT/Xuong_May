@@ -141,3 +141,4 @@ C:\Users\tranc\Desktop\XuongmayAPI\Xuong_May_API\XuongMay\obj\Debug\net8.0\refin
 C:\Users\tranc\Desktop\XuongmayAPI\Xuong_May_API\XuongMay\obj\Debug\net8.0\XuongMay.pdb
 C:\Users\tranc\Desktop\XuongmayAPI\Xuong_May_API\XuongMay\obj\Debug\net8.0\XuongMay.genruntimeconfig.cache
 C:\Users\tranc\Desktop\XuongmayAPI\Xuong_May_API\XuongMay\obj\Debug\net8.0\ref\XuongMay.dll
+C:\Users\tranc\Desktop\XuongmayAPI\Xuong_May_API\XuongMay\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

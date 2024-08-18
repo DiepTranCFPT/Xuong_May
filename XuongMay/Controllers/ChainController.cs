@@ -4,10 +4,12 @@ using XuongMay.Models.Entity;
 using System.Threading.Tasks;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace XuongMay.Controllers
 {
     [ApiController]
+    [Authorize]
     [Route("api/[controller]")]
     public class ChainController : ControllerBase
     {
