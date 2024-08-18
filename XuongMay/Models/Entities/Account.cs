@@ -11,7 +11,6 @@ namespace XuongMay.Models.Entity
         public int UserId { get; set; }
         public string? UserName { get; set; }
         public string UserPassword { get; set; }
-        public string Name { get; set; }
         public int Role { get; set; }
         public bool Status { get; set; }
 

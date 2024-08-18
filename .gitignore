@@ -1,0 +1,18 @@
+# Ignore compiled binaries and build artifacts
+*.exe
+*.dll
+*.o
+*.a
+*.so
+
+# Ignore directories
+bin/
+obj/
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
