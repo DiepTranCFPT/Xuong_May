@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "E:\\FPT University\\SEMESTER 6\\OJT-Projects\\Project1_v3\\Xuong_May\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B8B19B6-391C-473C-86D0-C6E8AD4AAF29}|XuongMay\\XuongMay.csproj|e:\\fpt university\\semester 6\\ojt-projects\\project1_v3\\xuong_may\\xuongmay\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B8B19B6-391C-473C-86D0-C6E8AD4AAF29}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5B8B19B6-391C-473C-86D0-C6E8AD4AAF29}|XuongMay\\XuongMay.csproj|e:\\fpt university\\semester 6\\ojt-projects\\project1_v3\\xuong_may\\xuongmay\\controllers\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B8B19B6-391C-473C-86D0-C6E8AD4AAF29}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\controllers\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B8B19B6-391C-473C-86D0-C6E8AD4AAF29}|XuongMay\\XuongMay.csproj|e:\\fpt university\\semester 6\\ojt-projects\\project1_v3\\xuong_may\\xuongmay\\models\\entities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B8B19B6-391C-473C-86D0-C6E8AD4AAF29}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\models\\entities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8B19B6-391C-473C-86D0-C6E8AD4AAF29}|XuongMay\\XuongMay.csproj|e:\\fpt university\\semester 6\\ojt-projects\\project1_v3\\xuong_may\\xuongmay\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8B19B6-391C-473C-86D0-C6E8AD4AAF29}|XuongMay\\XuongMay.csproj|solutionrelative:xuongmay\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B8B19B6-391C-473C-86D0-C6E8AD4AAF29}|XuongMay\\XuongMay.csproj|e:\\fpt university\\semester 6\\ojt-projects\\project1_v3\\xuong_may\\xuongmay\\models\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1244,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -63,13 +63,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\FPT University\\SEMESTER 6\\OJT-Projects\\Project1_v3\\Xuong_May\\XuongMay\\Program.cs",
               "RelativeDocumentMoniker": "XuongMay\\Program.cs",
               "ToolTip": "E:\\FPT University\\SEMESTER 6\\OJT-Projects\\Project1_v3\\Xuong_May\\XuongMay\\Program.cs",
               "RelativeToolTip": "XuongMay\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAADQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-18T08:45:17.545Z",
               "EditorCaption": ""
@@ -89,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Account.cs",
               "DocumentMoniker": "E:\\FPT University\\SEMESTER 6\\OJT-Projects\\Project1_v3\\Xuong_May\\XuongMay\\Models\\Entities\\Account.cs",
               "RelativeDocumentMoniker": "XuongMay\\Models\\Entities\\Account.cs",
@@ -102,13 +102,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AuthorizationController.cs",
               "DocumentMoniker": "E:\\FPT University\\SEMESTER 6\\OJT-Projects\\Project1_v3\\Xuong_May\\XuongMay\\Controllers\\AuthorizationController.cs",
               "RelativeDocumentMoniker": "XuongMay\\Controllers\\AuthorizationController.cs",
               "ToolTip": "E:\\FPT University\\SEMESTER 6\\OJT-Projects\\Project1_v3\\Xuong_May\\XuongMay\\Controllers\\AuthorizationController.cs",
               "RelativeToolTip": "XuongMay\\Controllers\\AuthorizationController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAmwC0AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwC0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-18T03:31:53.361Z",
               "EditorCaption": ""

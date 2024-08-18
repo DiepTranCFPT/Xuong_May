@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tranc\\Desktop\\XuongmayAPI\\Xuong_May_API\\XuongMay\\XuongMay.csproj": {}
+    "E:\\FPT University\\SEMESTER 6\\OJT-Projects\\Project1_v3\\Xuong_May\\XuongMay\\XuongMay.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tranc\\Desktop\\XuongmayAPI\\Xuong_May_API\\XuongMay\\XuongMay.csproj": {
+    "E:\\FPT University\\SEMESTER 6\\OJT-Projects\\Project1_v3\\Xuong_May\\XuongMay\\XuongMay.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tranc\\Desktop\\XuongmayAPI\\Xuong_May_API\\XuongMay\\XuongMay.csproj",
+        "projectUniqueName": "E:\\FPT University\\SEMESTER 6\\OJT-Projects\\Project1_v3\\Xuong_May\\XuongMay\\XuongMay.csproj",
         "projectName": "XuongMay",
-        "projectPath": "C:\\Users\\tranc\\Desktop\\XuongmayAPI\\Xuong_May_API\\XuongMay\\XuongMay.csproj",
-        "packagesPath": "C:\\Users\\tranc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tranc\\Desktop\\XuongmayAPI\\Xuong_May_API\\XuongMay\\obj\\",
+        "projectPath": "E:\\FPT University\\SEMESTER 6\\OJT-Projects\\Project1_v3\\Xuong_May\\XuongMay\\XuongMay.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "E:\\FPT University\\SEMESTER 6\\OJT-Projects\\Project1_v3\\Xuong_May\\XuongMay\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\tranc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,6 +50,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.12.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.8, )"
@@ -56,6 +71,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.8, )"
+            },
+            "Portable.BouncyCastle": {
+              "target": "Package",
+              "version": "[1.9.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -85,7 +104,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
