@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Org.BouncyCastle.Crypto.Generators;
@@ -23,6 +24,7 @@ namespace XuongMay.Controllers
         }
 
         [HttpPost("Login")]
+        //[AllowAnonymous]
         public async Task<IActionResult> Login([FromBody] LoginDTO model)
         {
             // Retrieve user from the database based on UserName
@@ -57,6 +59,7 @@ namespace XuongMay.Controllers
 
 
         [HttpPost("Register")]
+        [AllowAnonymous]
         public async Task<IActionResult> Register([FromBody] LoginDTO model)
         {
 
