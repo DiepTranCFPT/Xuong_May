@@ -35,6 +35,12 @@ namespace XuongMay.Controllers
                 return BadRequest("User not found.");
             }
 
+            // Check if the account is active
+            if (!user.Status)
+            {
+                return BadRequest("Account is inactive. Please contact support.");
+            }
+
             // Validate password using secure hashing
             //if (!VerifyPassword(user.UserPassword, model.UserPassword))
             if (user.UserPassword != model.UserPassword)

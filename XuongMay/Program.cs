@@ -7,8 +7,6 @@ using System.Text;
 using XuongMay;
 using XuongMay.Models.Entity;
 
-
-
 var builder = WebApplication.CreateBuilder(args);
 builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
 

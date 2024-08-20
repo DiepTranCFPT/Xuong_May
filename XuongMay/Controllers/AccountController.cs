@@ -35,6 +35,14 @@ namespace XuongMay.Controllers
             return Ok(account);
         }
 
+        // GET: api/Account/Active
+        [HttpGet("Active")]
+        public IActionResult GetActiveAccounts()
+        {
+            var activeAccounts = _dbContext.Accounts.Where(a => a.Status).ToList();
+            return Ok(activeAccounts);
+        }
+
         // PUT: api/Account/{id}
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateAccount(int id, Account updatedAccount)
@@ -61,7 +69,9 @@ namespace XuongMay.Controllers
             if (account == null)
                 return NotFound();
 
-            _dbContext.Accounts.Remove(account);
+            // Mark the account as inactive
+            account.Status = false; // Set to inactive
+
             await _dbContext.SaveChangesAsync();
             return NoContent();
         }
