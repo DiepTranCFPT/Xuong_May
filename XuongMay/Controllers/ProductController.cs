@@ -17,9 +17,10 @@ namespace XuongMay.Controllers
             this._dbContext = _dbContext;
         }
         [HttpGet]
-        public async Task<ActionResult<List<Product>>> GetAllProduct()
+        public async Task<ActionResult<List<Product>>> GetAllProduct(int pageNumber = 1, int pageSize = 10)
         {
-            var products = await _dbContext.Products.ToListAsync();
+            var products = await _dbContext.Products.Skip((pageNumber - 1) * pageSize)
+.Take(pageSize).ToListAsync();
             if (products is null)
             {
                 return BadRequest("Don't have any product");
@@ -78,7 +79,7 @@ namespace XuongMay.Controllers
 
             return Ok("Product updated successfully.");
         }
-
+            
         [HttpPost("add")]
         public async Task<IActionResult> AddProduct([FromBody] CreateProductDto createProductDto)
         {
@@ -97,7 +98,8 @@ namespace XuongMay.Controllers
                 Description = createProductDto.Description,
                 Amount = createProductDto.Amount,
                 UnitPrice = createProductDto.UnitPrice,
-                Status = createProductDto.Status
+                Status = createProductDto.Status,
+                IsDeleted = false
             };
 
             _dbContext.Products.Add(product);

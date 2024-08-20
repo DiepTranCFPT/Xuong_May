@@ -14,6 +14,8 @@ public class Product
     public int Amount { get; set; }
     public double UnitPrice { get; set; }
     public bool Status { get; set; }
+
+    public bool IsDeleted { get; set; }
     public Category Category { get; set; }
     public ICollection<OrderDetails> OrderDetails { get; set; }
 }

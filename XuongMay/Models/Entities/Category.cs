@@ -13,5 +13,7 @@ public class Category
     [MaxLength(100)]
     public string? Description { get; set; }
 
+    public bool IsDeleted { get; set; }
+
     public ICollection<Product> Products { get; set; }
 }
