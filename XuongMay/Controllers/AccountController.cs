@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using XuongMay.Models;
 using XuongMay.Models.Entity;
 
 namespace XuongMay.Controllers
@@ -45,21 +46,21 @@ namespace XuongMay.Controllers
 
         // PUT: api/Account/{id}
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateAccount(int id, Account updatedAccount)
+        public async Task<IActionResult> UpdateAccount(int id, AccountDTO updatedAccount)
         {
             var existingAccount = await _dbContext.Accounts.FindAsync(id);
             if (existingAccount == null)
                 return NotFound();
 
-            // Update properties as needed
+            // Update properties related to the account
             existingAccount.UserName = updatedAccount.UserName;
-            existingAccount.UserPassword = updatedAccount.UserPassword;
             existingAccount.Role = updatedAccount.Role;
             existingAccount.Status = updatedAccount.Status;
 
             await _dbContext.SaveChangesAsync();
             return NoContent();
         }
+
 
         // DELETE: api/Account/{id}
         [HttpDelete("{id}")]

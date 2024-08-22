@@ -2,12 +2,11 @@
 
 namespace XuongMay.Models
 {
-    public class AccountDTO : Controller
+    public class AccountDTO
     {
-            public int UserId { get; set; }
-            public string UserName { get; set; }
-            public int Role { get; set; }
-            public bool Status { get; set; }
-
+        public string UserName { get; set; }
+        public int Role { get; set; }
+        public bool Status { get; set; }
     }
+
 }
