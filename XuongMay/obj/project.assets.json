@@ -4631,11 +4631,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\FPT University\\SEMESTER 6\\OJT-Projects\\Project1_v3\\Xuong_May\\XuongMay\\XuongMay.csproj",
+      "projectUniqueName": "E:\\FPT University\\SEMESTER 6\\OJT-Projects\\Project1_official\\Xuong_May_API\\XuongMay\\XuongMay.csproj",
       "projectName": "XuongMay",
-      "projectPath": "E:\\FPT University\\SEMESTER 6\\OJT-Projects\\Project1_v3\\Xuong_May\\XuongMay\\XuongMay.csproj",
+      "projectPath": "E:\\FPT University\\SEMESTER 6\\OJT-Projects\\Project1_official\\Xuong_May_API\\XuongMay\\XuongMay.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "E:\\FPT University\\SEMESTER 6\\OJT-Projects\\Project1_v3\\Xuong_May\\XuongMay\\obj\\",
+      "outputPath": "E:\\FPT University\\SEMESTER 6\\OJT-Projects\\Project1_official\\Xuong_May_API\\XuongMay\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

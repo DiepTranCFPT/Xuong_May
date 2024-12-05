@@ -16,3 +16,26 @@ node_modules/
 # Ignore system files
 .DS_Store
 Thumbs.db
+
+# Ignore Visual Studio temporary files
+.vs/
+
+# Ignore user-specific files
+*.suo
+*.user
+*.sln.docstates
+
+# Ignore NuGet package files
+*.nupkg
+
+# Ignore ReSharper files
+_ReSharper*/
+
+# Ignore JetBrains Rider files
+.idea/
+
+# Ignore Mac-specific files
+.DS_Store
+
+# Ignore Windows-specific files
+Thumbs.db
